@@ -1,4 +1,4 @@
-name: Daily Commit
+name: Daily Commit 22f3001777@ds.study.iitm.ac.in
 
 on:
   schedule:
@@ -17,7 +17,7 @@ jobs:
 
       - name: Set Git Config
         run: |
-          git config --global user.name "GitHub Actions Bot 22f3001777@ds.study.iitm.ac.in"
+          git config --global user.name "22f3001777@ds.study.iitm.ac.in"
           git config --global user.email "22f3001777@ds.study.iitm.ac.in"
 
       - name: Add a Commit
